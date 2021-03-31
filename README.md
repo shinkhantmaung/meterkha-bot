@@ -1,2 +1,1 @@
-# meterkha_bot
-Telegram Bot
+# meterkha_telegram_bot
