@@ -1,12 +1,11 @@
 from telegram import *
 from telegram.ext import *
-import wikipedia
 
-bot = Bot("1767761618:AAGXnLlnrcrJ6N5bg6emGbtaNKduOFRIlNE")
+bot = Bot("YOUR_TOKEN")
 
 print(bot.get_me()) 
 
-updater = Updater("1767761618:AAGXnLlnrcrJ6N5bg6emGbtaNKduOFRIlNE",use_context=True)
+updater = Updater("YOUR_TOKEN",use_context=True)
 
 dispatcher : Dispatcher =  updater.dispatcher
 
